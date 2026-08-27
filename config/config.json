@@ -1,0 +1,14 @@
+{
+    "webhook_url": "https://discord.com/api/webhooks/999/test123",
+    "default_platform": "Discord",
+    "default_length": 4,
+    "default_amount": 1000,
+    "default_generation_mode": "Smart",
+    "theme": "Red",
+    "request_timeout": 10,
+    "retry_count": 3,
+    "rate_limit_delay": 1.0,
+    "logging_enabled": true,
+    "debug_mode": false,
+    "test_mode": false
+}

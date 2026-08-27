@@ -1,0 +1,140 @@
+2026-08-22 09:30:07,558 [INFO] GUARDIAN started
+2026-08-22 09:30:19,105 [INFO] GUARDIAN started
+2026-08-22 09:31:00,767 [INFO] GUARDIAN started
+2026-08-22 09:31:35,823 [INFO] GUARDIAN started
+2026-08-22 09:35:26,429 [INFO] GUARDIAN started
+
+--- FATAL ERROR ---
+Traceback (most recent call last):
+  File "C:\Users\x6xla\Downloads\GUARDIAN\guardian.py", line 859, in <module>
+    guardian.run()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\x6xla\Downloads\GUARDIAN\guardian.py", line 45, in run
+    self._webhook_setup()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\x6xla\Downloads\GUARDIAN\guardian.py", line 54, in _webhook_setup
+    print_banner(theme)
+    ~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\x6xla\Downloads\GUARDIAN\utils\terminal.py", line 54, in print_banner
+    theme = get_theme(theme_name)
+  File "C:\Users\x6xla\Downloads\GUARDIAN\utils\terminal.py", line 43, in get_theme
+    return THEMES.get(theme_name, THEMES["Red"])
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot use 'dict' as a dict key (unhashable type: 'dict')
+
+2026-08-22 09:35:38,204 [INFO] GUARDIAN started
+
+--- FATAL ERROR ---
+Traceback (most recent call last):
+  File "C:\Users\x6xla\Downloads\GUARDIAN\guardian.py", line 859, in <module>
+    guardian.run()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\x6xla\Downloads\GUARDIAN\guardian.py", line 45, in run
+    self._webhook_setup()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\x6xla\Downloads\GUARDIAN\guardian.py", line 54, in _webhook_setup
+    print_banner(theme)
+    ~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\x6xla\Downloads\GUARDIAN\utils\terminal.py", line 54, in print_banner
+    theme = get_theme(theme_name)
+  File "C:\Users\x6xla\Downloads\GUARDIAN\utils\terminal.py", line 43, in get_theme
+    return THEMES.get(theme_name, THEMES["Red"])
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot use 'dict' as a dict key (unhashable type: 'dict')
+
+2026-08-22 09:38:14,520 [INFO] GUARDIAN started
+2026-08-22 09:38:53,690 [INFO] Webhook test successful: https://discord.com/api/webhooks/1540626286433800334/kwvi************************************************************GLay
+2026-08-22 09:38:53,705 [INFO] Webhook configured
+2026-08-22 09:39:05,185 [INFO] Platform selected: Discord
+2026-08-22 09:39:18,689 [INFO] Scan started: Discord, len=3, amount=100, mode=Random
+2026-08-22 09:40:08,720 [INFO] Scan results sent to Discord webhook
+2026-08-22 09:40:08,722 [INFO] Scan complete: Discord, available=0, taken=0
+2026-08-22 09:40:15,962 [INFO] Platform selected: Discord
+2026-08-22 09:40:25,962 [INFO] Scan started: Discord, len=4, amount=100, mode=Random
+2026-08-22 09:42:25,137 [INFO] Scan results sent to Discord webhook
+2026-08-22 09:42:25,139 [INFO] Scan complete: Discord, available=0, taken=0
+2026-08-22 09:44:01,075 [INFO] Platform selected: Roblox
+2026-08-22 09:44:05,164 [INFO] Scan started: Roblox, len=4, amount=2, mode=Sequential
+2026-08-22 09:44:07,885 [INFO] Scan results sent to Discord webhook
+2026-08-22 09:44:07,886 [INFO] Scan complete: Roblox, available=0, taken=0
+2026-08-22 10:01:51,827 [INFO] GUARDIAN started
+2026-08-22 10:08:40,055 [INFO] GUARDIAN started
+2026-08-22 10:08:46,461 [INFO] Platform selected: Discord
+2026-08-22 10:09:06,893 [INFO] Scan started: Discord, len=3, amount=10000, mode=Random
+2026-08-22 10:09:16,005 [INFO] Scan results sent to Discord webhook
+2026-08-22 10:09:16,007 [INFO] Scan complete: Discord, available=0, taken=0
+2026-08-22 10:19:57,641 [INFO] GUARDIAN started
+2026-08-22 10:20:02,906 [INFO] Platform selected: Discord
+2026-08-22 10:20:18,322 [INFO] Scan started: Discord, len=3, amount=10000, mode=Random
+2026-08-22 10:40:59,954 [INFO] GUARDIAN started
+2026-08-22 10:41:06,730 [INFO] Platform selected: Discord
+2026-08-22 10:41:20,002 [INFO] Scan started: Discord, len=3, amount=1000, mode=Smart
+
+--- FATAL ERROR ---
+Traceback (most recent call last):
+  File "C:\Users\x6xla\Downloads\GUARDIAN\guardian.py", line 682, in <module>
+    guardian.run()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\x6xla\Downloads\GUARDIAN\guardian.py", line 59, in run
+    self._main_menu()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\x6xla\Downloads\GUARDIAN\guardian.py", line 158, in _main_menu
+    actions[choice]()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\x6xla\Downloads\GUARDIAN\guardian.py", line 295, in _find_usernames
+    self._scanner.start(on_complete=on_complete)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\x6xla\Downloads\GUARDIAN\scanner\scanner.py", line 95, in start
+    ok, test_result = self.run_self_test()
+                      ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\x6xla\Downloads\GUARDIAN\scanner\scanner.py", line 47, in run_self_test
+    result = self.platform.check_availability(
+        name, timeout=self.request_timeout, test_mode=False,
+    )
+TypeError: DiscordPlatform.check_availability() got an unexpected keyword argument 'test_mode'
+
+2026-08-22 10:45:58,342 [INFO] GUARDIAN started
+2026-08-22 10:46:02,868 [INFO] Platform selected: Discord
+2026-08-22 10:46:12,324 [INFO] Scan started: Discord, len=3, amount=1000, mode=Random
+
+--- FATAL ERROR ---
+Traceback (most recent call last):
+  File "C:\Users\x6xla\Downloads\GUARDIAN\guardian.py", line 682, in <module>
+    guardian.run()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\x6xla\Downloads\GUARDIAN\guardian.py", line 59, in run
+    self._main_menu()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\x6xla\Downloads\GUARDIAN\guardian.py", line 158, in _main_menu
+    actions[choice]()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\x6xla\Downloads\GUARDIAN\guardian.py", line 295, in _find_usernames
+    self._scanner.start(on_complete=on_complete)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\x6xla\Downloads\GUARDIAN\scanner\scanner.py", line 95, in start
+    ok, test_result = self.run_self_test()
+                      ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\x6xla\Downloads\GUARDIAN\scanner\scanner.py", line 47, in run_self_test
+    result = self.platform.check_availability(
+        name, timeout=self.request_timeout, test_mode=False,
+    )
+TypeError: DiscordPlatform.check_availability() got an unexpected keyword argument 'test_mode'
+
+2026-08-22 11:06:23,274 [INFO] GUARDIAN started
+2026-08-22 11:12:50,744 [INFO] GUARDIAN started
+2026-08-22 11:17:01,280 [INFO] GUARDIAN started
+2026-08-22 11:18:22,452 [INFO] GUARDIAN started
+2026-08-22 11:23:21,811 [INFO] GUARDIAN started
+2026-08-22 11:24:46,276 [INFO] GUARDIAN started
+2026-08-22 11:26:58,055 [INFO] GUARDIAN started
+2026-08-22 11:30:24,259 [INFO] GUARDIAN started
+2026-08-22 11:32:35,666 [INFO] GUARDIAN started
+2026-08-22 11:38:53,990 [INFO] GUARDIAN started
+2026-08-22 11:54:00,480 [INFO] GUARDIAN started
+2026-08-22 11:54:24,819 [INFO] GUARDIAN started
+2026-08-22 11:56:43,793 [INFO] GUARDIAN started
+2026-08-22 11:58:58,662 [INFO] GUARDIAN started
+2026-08-22 11:59:03,579 [INFO] GUARDIAN started
+2026-08-22 13:20:09,363 [INFO] GUARDIAN started
+2026-08-22 13:33:00,412 [INFO] GUARDIAN started
+2026-08-22 13:34:20,103 [INFO] GUARDIAN started
